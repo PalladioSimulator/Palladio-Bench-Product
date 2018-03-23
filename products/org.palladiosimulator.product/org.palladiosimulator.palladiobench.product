@@ -28,7 +28,7 @@ http://www.palladio-simulator.com
    <launcherArgs>
       <programArgs>-consoleLog -console -perspective org.palladiosimulator.pcmbench.perspectives.palladio
       </programArgs>
-      <vmArgs>-Dosgi.requiredJavaVersion=1.8 -Xms512m -Xmx2048m
+      <vmArgs>--add-modules=ALL-SYSTEM -Dosgi.requiredJavaVersion=1.8 -Xms512m -Xmx2048m
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
