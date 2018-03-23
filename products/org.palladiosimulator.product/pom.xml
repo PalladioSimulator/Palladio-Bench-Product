@@ -51,17 +51,17 @@
 				<version>1.8</version>
 				<executions>
 					<execution>
-						<id>copy-product-zips</id>
+						<id>move-product-zips</id>
 						<phase>package</phase>
 						<goals>
 							<goal>run</goal>
 						</goals>
 						<configuration>
-							<target name="copy-product-zips">
-								<copy todir="${project.build.directory}/deploy" verbose="true" overwrite="true">
+							<target name="move-product-zips">
+								<move todir="${project.build.directory}/deploy" verbose="true" overwrite="true">
 									<fileset dir="${project.build.directory}/products" includes="*.zip" />
 									<regexpmapper from="${product.id}-(.*)" to="Palladio.\1"/>
-								</copy>   
+								</move>   
 							</target>
 						</configuration>
 					</execution>
