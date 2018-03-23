@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Palladio Bench" uid="org.palladiosimulator.palladiobench" id="org.palladiosimulator.pcm.ui.PalladioProduct" application="org.eclipse.ui.ide.workbench" version="4.1.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Palladio Bench" uid="org.palladiosimulator.palladiobench.product" id="org.palladiosimulator.pcm.ui.PalladioProduct" application="org.eclipse.ui.ide.workbench" version="4.1.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.palladiosimulator.pcm.ui/about.png"/>
@@ -28,7 +28,7 @@ http://www.palladio-simulator.com
    <launcherArgs>
       <programArgs>-consoleLog -console -perspective org.palladiosimulator.pcmbench.perspectives.palladio
       </programArgs>
-      <vmArgs>-Dosgi.requiredJavaVersion=1.7 -Xms512m -Xmx2048m
+      <vmArgs>-Dosgi.requiredJavaVersion=1.8 -Xms512m -Xmx2048m
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -42,11 +42,10 @@ http://www.palladio-simulator.com
       startupMessageRect="232,302,255,20"
       startupForegroundColor="000000" />
    <launcher name="PalladioBench">
-      <linux icon="/org.palladiosimulator.product.feature/icons/palladio_logo.XPM"/>
-      <macosx icon="/org.palladiosimulator.product.feature/icons/palladio_logo.icns"/>
-      <solaris/>
+      <linux icon="/icons/palladio_logo.XPM"/>
+      <macosx icon="/icons/palladio_logo.icns"/>
       <win useIco="true">
-         <ico path="/org.palladiosimulator.product.feature/icons/palladio_logo.ico"/>
+         <ico path="/icons/palladio_logo.ico"/>
          <bmp/>
       </win>
    </launcher>
@@ -54,10 +53,9 @@ http://www.palladio-simulator.com
    <intro introId="org.palladiosimulator.pcm.ui.intro"/>
 
    <vm>
-      <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</linux>
-      <macos include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</macos>
-      <solaris include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</solaris>
-      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</windows>
+      <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</linux>
+      <macos include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</macos>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
 
    <license>
