@@ -11,8 +11,13 @@
 	<artifactId>palladiosimulator.bench</artifactId>
 	<packaging>eclipse-repository</packaging>
 
+	<properties>
+		<product.id>org.palladiosimulator.palladiobench.product</product.id>
+	</properties>
+	
 	<build>
 		<plugins>
+
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-director-plugin</artifactId>
@@ -34,10 +39,33 @@
 				<configuration>
 					<products>
 						<product>
-							<id>org.palladiosimulator.palladiobench.product</id>
+							<id>${product.id}</id>
 						</product>
 					</products>
 				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<executions>
+					<execution>
+						<id>copy-product-zips</id>
+						<phase>package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target name="copy-product-zips">
+								<copy todir="${project.build.directory}/deploy" verbose="true" overwrite="true">
+									<fileset dir="${project.build.directory}/products" includes="*.zip" />
+									<regexpmapper from="${product.id}-(.*)" to="Palladio.\1"/>
+								</copy>   
+							</target>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 
 		</plugins>
