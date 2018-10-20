@@ -34,9 +34,9 @@
 					<url>https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly</url>
 				</repository>
 				<repository>
-					<id>eclipse-oxygen</id>
+					<id>eclipse-photon</id>
 					<layout>p2</layout>
-					<url>http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/</url>
+					<url>http://download.eclipse.org/releases/photon/</url>
 				</repository>
 			</repositories>
 		</profile>
@@ -55,9 +55,9 @@
 					<url>https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/releases/latest</url>
 				</repository>
 				<repository>
-					<id>eclipse-oxygen</id>
+					<id>eclipse-photon</id>
 					<layout>p2</layout>
-					<url>http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/</url>
+					<url>http://download.eclipse.org/releases/photon/</url>
 				</repository>
 			</repositories>
 		</profile>
