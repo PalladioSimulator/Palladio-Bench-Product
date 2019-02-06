@@ -36,4 +36,11 @@
       <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
    </requires>
 
+   <plugin
+       id="org.palladiosimulator.product.j2ee.activator"
+       download-size="0"
+       install-size="0"
+       version="0.0.0"
+       unpack="false"/>
+
 </feature>
