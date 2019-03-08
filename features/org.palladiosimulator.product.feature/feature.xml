@@ -34,13 +34,14 @@
       <import feature="org.eclipse.jdt" version="3.13.0" match="compatible"/>
       <import feature="org.eclipse.platform" version="4.7.0" match="compatible"/>
       <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
+      <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.1.0.qualifier" match="equivalent"/>
    </requires>
 
    <plugin
-       id="org.palladiosimulator.product.j2ee.activator"
-       download-size="0"
-       install-size="0"
-       version="0.0.0"
-       unpack="false"/>
+         id="org.palladiosimulator.product.j2ee.activator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
