@@ -34,7 +34,7 @@
       <import feature="org.eclipse.jdt" version="3.13.0" match="compatible"/>
       <import feature="org.eclipse.platform" version="4.7.0" match="compatible"/>
       <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
-      <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.1.0.qualifier" match="equivalent"/>
+      <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.1.0" match="equivalent"/>
    </requires>
 
    <plugin
