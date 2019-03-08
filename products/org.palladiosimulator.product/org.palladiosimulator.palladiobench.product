@@ -169,6 +169,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.palladiosimulator.analyzer.feature" installMode="root"/>
       <feature id="org.palladiosimulator.monitorrepository.feature" installMode="root"/>
       <feature id="org.palladiosimulator.simulizar.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" installMode="root"/>
    </features>
 
    <configurations>
