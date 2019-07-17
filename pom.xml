@@ -39,6 +39,11 @@
 					<url>https://sdqweb.ipd.kit.edu/eclipse/palladio/supporting/workarounds/nightly</url>
 				</repository>
 				<repository>
+					<id>pcm-branding</id>
+					<layout>p2</layout>
+					<url>https://sdqweb.ipd.kit.edu/eclipse/palladio/supporting/branding/nightly/</url>
+				</repository>
+				<repository>
 					<id>eclipse-2019-06</id>
 					<layout>p2</layout>
 					<url>http://download.eclipse.org/releases/2019-06/</url>
@@ -63,6 +68,11 @@
 					<id>pcm-workarounds</id>
 					<layout>p2</layout>
 					<url>https://sdqweb.ipd.kit.edu/eclipse/palladio/supporting/workarounds/releases/latest</url>
+				</repository>
+				<repository>
+					<id>pcm-branding</id>
+					<layout>p2</layout>
+					<url>https://sdqweb.ipd.kit.edu/eclipse/palladio/supporting/branding/releases/latest</url>
 				</repository>
 				<repository>
 					<id>eclipse-2019-06</id>
