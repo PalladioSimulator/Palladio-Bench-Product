@@ -35,6 +35,7 @@
       <import feature="org.palladiosimulator.simulizar.feature" version="2.1.0" match="equivalent"/>
       <import feature="org.palladiosimulator.supporting.workarounds.j2ee.feature" version="0.1.0" match="equivalent"/>
       <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.1.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.license.epl2"/>
       <import feature="org.eclipse.jdt" version="3.13.0" match="compatible"/>
       <import feature="org.eclipse.platform" version="4.7.0" match="compatible"/>
       <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
