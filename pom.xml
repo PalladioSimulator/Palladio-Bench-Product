@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.palladiosimulator</groupId>
 		<artifactId>eclipse-parent-product</artifactId>
-		<version>0.1.5</version>
+		<version>0.3.2</version>
 	</parent>
 	<groupId>org.palladiosimulator.bench</groupId>
 	<artifactId>parent</artifactId>	
@@ -31,12 +31,12 @@
 				<repository>
 					<id>pcm-nightly</id>
 					<layout>p2</layout>
-					<url>https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly</url>
+					<url>https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/</url>
 				</repository>
 				<repository>
-					<id>eclipse-photon</id>
+					<id>eclipse-2019-06</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/releases/photon/</url>
+					<url>http://download.eclipse.org/releases/2019-06/</url>
 				</repository>
 			</repositories>
 		</profile>
@@ -52,12 +52,12 @@
 				<repository>
 					<id>pcm-latest</id>
 					<layout>p2</layout>
-					<url>https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/releases/latest</url>
+					<url>https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest</url>
 				</repository>
 				<repository>
-					<id>eclipse-photon</id>
+					<id>eclipse-2019-06</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/releases/photon/</url>
+					<url>http://download.eclipse.org/releases/2019-06/</url>
 				</repository>
 			</repositories>
 		</profile>
