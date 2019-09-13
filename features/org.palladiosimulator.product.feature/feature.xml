@@ -4,11 +4,9 @@
       label="Palladio Product Feature"
       version="4.1.0.qualifier"
       provider-name="palladiosimulator.org"
-      plugin="org.palladiosimulator.branding">
-	  <!--
+      plugin="org.palladiosimulator.branding"
       license-feature="org.palladiosimulator.license.epl2"
       license-feature-version="1.0.0">
-	  -->
 
    <description url="http://www.palladiosimulator.org">
       This is the Palladio Bench Feature
@@ -41,6 +39,8 @@
       <import feature="org.eclipse.jdt" version="3.13.0" match="compatible"/>
       <import feature="org.eclipse.platform" version="4.7.0" match="compatible"/>
       <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
+      <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.1.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.supporting.workarounds.epackageinit.feature" version="0.1.0" match="equivalent"/>
    </requires>
 
 </feature>
