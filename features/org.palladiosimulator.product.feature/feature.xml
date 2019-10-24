@@ -39,6 +39,7 @@
       <import feature="org.eclipse.platform" version="4.7.0" match="compatible"/>
       <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
       <import feature="org.palladiosimulator.supporting.workarounds.epackageinit.feature" version="0.1.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.measurementsui.feature" version="1.0.0" match="equivalent"/>
    </requires>
 
 </feature>
