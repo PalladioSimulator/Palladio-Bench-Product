@@ -21,25 +21,25 @@
    </license>
 
    <requires>
-      <import feature="org.palladiosimulator.editors.commons.feature" version="2.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.editors.sirius.feature" version="4.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.edp2.feature" version="1.0.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.edp2.ui.feature" version="1.0.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.pcm.feature" version="4.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.protocom.feature" version="4.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.simucom.feature" version="4.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.solver.feature" version="4.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.recorderframework.feature" version="2.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.analyzer.feature" version="1.0.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.monitorrepository.feature" version="3.0.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.simulizar.feature" version="2.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.1.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.editors.commons.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.editors.sirius.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.edp2.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.edp2.ui.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.pcm.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.protocom.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.simucom.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.solver.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.recorderframework.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.analyzer.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.monitorrepository.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.simulizar.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.2.0" match="equivalent"/>
       <import feature="org.palladiosimulator.branding.feature"/>
-      <import feature="org.eclipse.jdt" version="3.13.0" match="compatible"/>
-      <import feature="org.eclipse.platform" version="4.7.0" match="compatible"/>
-      <import plugin="org.eclipse.sdk" version="4.7.0" match="compatible"/>
-      <import feature="org.palladiosimulator.supporting.workarounds.epackageinit.feature" version="0.1.0" match="equivalent"/>
-      <import feature="org.palladiosimulator.measurementsui.feature" version="1.0.0" match="equivalent"/>
+      <import feature="org.eclipse.jdt" version="3.18.0" match="compatible"/>
+      <import feature="org.eclipse.platform" version="4.13.0" match="compatible"/>
+      <import plugin="org.eclipse.sdk" version="4.13.0" match="compatible"/>
+      <import feature="org.palladiosimulator.supporting.workarounds.epackageinit.feature" version="4.2.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.measurementsui.feature" version="4.2.0" match="equivalent"/>
    </requires>
 
 </feature>

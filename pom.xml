@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.palladiosimulator</groupId>
 		<artifactId>eclipse-parent-product</artifactId>
-		<version>0.3.2</version>
+		<version>0.4.1</version>
 	</parent>
 	<groupId>org.palladiosimulator.bench</groupId>
 	<artifactId>parent</artifactId>	
@@ -34,9 +34,9 @@
 					<url>https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/</url>
 				</repository>
 				<repository>
-					<id>eclipse-2019-06</id>
+					<id>eclipse-2019-09</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/releases/2019-06/</url>
+					<url>http://download.eclipse.org/releases/2019-09/</url>
 				</repository>
 			</repositories>
 		</profile>
@@ -55,26 +55,13 @@
 					<url>https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest</url>
 				</repository>
 				<repository>
-					<id>eclipse-2019-06</id>
+					<id>eclipse-2019-09</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/releases/2019-06/</url>
+					<url>http://download.eclipse.org/releases/2019-09/</url>
 				</repository>
 			</repositories>
 		</profile>
 
 	</profiles>
-	
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho.extras</groupId>
-				<artifactId>tycho-source-feature-plugin</artifactId>
-				<version>${tycho.version}</version>
-				<configuration>
-					<skip>true</skip>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 	
 </project>
