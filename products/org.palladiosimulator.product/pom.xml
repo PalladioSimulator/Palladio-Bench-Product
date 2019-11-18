@@ -15,6 +15,51 @@
 		<product.id>org.palladiosimulator.palladiobench.product</product.id>
 	</properties>
 	
+	<profiles>
+		<profile>
+			<id>release</id>
+			<activation>
+				<property>
+					<name>release</name>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<version>1.8</version>
+						<executions>
+							<execution>
+								<id>replace-nightly-updatesite</id>
+								<phase>process-resources</phase>
+								<goals>
+									<goal>run</goal>
+								</goals>
+								<configuration>
+									<target name="replace-nightly-reference">
+										<replaceregexp
+											file="p2.inf"
+											match="palladio-build-updatesite/nightly/"
+											replace="palladio-build-updatesite/releases/latest/"
+											byline="true"
+										/>
+										<replaceregexp
+											file="p2.inf"
+											match="Palladio Nightly Update Site"
+											replace="Palladio Release Update Site"
+											byline="true"
+										/>
+									</target>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
 	<build>
 		<plugins>
 
