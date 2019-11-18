@@ -1,8 +1,8 @@
-instructions.configure=org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/,type:0,name:Palladio Update Site,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/,type:1,name:Palladio Update Site,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/oxygen/,type:0,name:Oxygen,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/oxygen/,type:1,name:Oxygen,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/updates/4.7/,type:0,name:Oxygen updates,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/updates/4.7/,type:1,name:Oxygen updates,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20180206163158/repository/,type:0,name:Orbit,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20180206163158/repository/,type:1,name:Orbit,enabled:true);
+instructions.configure=org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/,type:0,name:Palladio Nightly Update Site,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/,type:1,name:Palladio Nightly Update Site,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/2019-09/,type:0,name:Eclipse 2019-09,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/2019-09/,type:1,name:Eclipse 2019-09,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/eclipse/updates/4.13/,type:0,name:Eclipse 2019-09 Updates,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/eclipse/updates/4.13/,type:1,name:Eclipse 2019-09 Updates,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20190827152740/repository/,type:0,name:Eclipse 2019-09 Orbit,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20190827152740/repository/,type:1,name:Eclipse 2019-09 Orbit,enabled:true);
