@@ -24,7 +24,8 @@
 			<id>nightly</id>
 			<activation>
 				<property>
-					<name>!release</name>
+					<name>env.RELEASE</name>
+					<value>!true</value>
 				</property>
 			</activation>
 			<repositories>
@@ -45,7 +46,8 @@
 			<id>release</id>
 			<activation>
 				<property>
-					<name>release</name>
+					<name>env.RELEASE</name>
+					<value>true</value>
 				</property>
 			</activation>
 			<repositories>
