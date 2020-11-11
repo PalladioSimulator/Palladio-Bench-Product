@@ -348,6 +348,7 @@ version(s), and exceptions or additional permissions here}."
       <feature id="org.palladiosimulator.product.feature" version="4.3.0.qualifier"/>
       <feature id="org.palladiosimulator.editors.commons.feature" installMode="root"/>
       <feature id="org.palladiosimulator.editors.sirius.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.editors.tree.feature" installMode="root"/>
       <feature id="org.palladiosimulator.edp2.feature" installMode="root"/>
       <feature id="org.palladiosimulator.edp2.ui.feature" installMode="root"/>
       <feature id="org.palladiosimulator.pcm.feature" installMode="root"/>
