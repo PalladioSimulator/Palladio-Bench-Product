@@ -36,11 +36,11 @@
       <import feature="org.palladiosimulator.monitorrepository.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.simulizar.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="4.3.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.measurementsui.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.branding.feature"/>
       <import feature="org.eclipse.jdt" version="3.18.0" match="compatible"/>
-      <import feature="org.eclipse.platform" version="4.16.0" match="compatible"/>
-      <import plugin="org.eclipse.sdk" version="4.16.0" match="compatible"/>
-      <import feature="org.palladiosimulator.measurementsui.feature" version="4.3.0" match="equivalent"/>
+      <import feature="org.eclipse.platform" version="4.18.0" match="compatible"/>
+      <import plugin="org.eclipse.sdk" version="4.18.0" match="compatible"/>
    </requires>
 
 </feature>
