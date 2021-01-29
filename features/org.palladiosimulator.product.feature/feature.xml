@@ -30,6 +30,7 @@
       <import feature="org.palladiosimulator.protocom.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.simucom.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.solver.feature" version="4.3.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.reliability.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.recorderframework.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.analyzer.feature" version="4.3.0" match="equivalent"/>
       <import feature="org.palladiosimulator.monitorrepository.feature" version="4.3.0" match="equivalent"/>
