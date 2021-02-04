@@ -350,7 +350,6 @@ version(s), and exceptions or additional permissions here}."
       <feature id="org.palladiosimulator.edp2.ui.feature" installMode="root"/>
       <feature id="org.palladiosimulator.pcm.feature" installMode="root"/>
       <feature id="org.palladiosimulator.protocom.feature" installMode="root"/>
-      <feature id="org.palladiosimulator.simucom.feature" installMode="root"/>
       <feature id="org.palladiosimulator.solver.feature" installMode="root"/>
       <feature id="org.palladiosimulator.reliability.feature" installMode="root"/>
       <feature id="org.palladiosimulator.recorderframework.feature" installMode="root"/>
