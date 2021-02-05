@@ -356,6 +356,7 @@ version(s), and exceptions or additional permissions here}."
       <feature id="org.palladiosimulator.analyzer.feature" installMode="root"/>
       <feature id="org.palladiosimulator.monitorrepository.feature" installMode="root"/>
       <feature id="org.palladiosimulator.simulizar.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature" installMode="root"/>
       <feature id="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" installMode="root"/>
       <feature id="org.palladiosimulator.measurementsui.feature" installMode="root"/>
    </features>

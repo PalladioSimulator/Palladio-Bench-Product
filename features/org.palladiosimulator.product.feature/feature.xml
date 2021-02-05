@@ -34,6 +34,7 @@
       <import feature="org.palladiosimulator.analyzer.feature" version="5.0.0" match="equivalent"/>
       <import feature="org.palladiosimulator.monitorrepository.feature" version="5.0.0" match="equivalent"/>
       <import feature="org.palladiosimulator.simulizar.feature" version="5.0.0" match="equivalent"/>
+      <import feature="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature" version="5.0.0" match="equivalent"/>
       <import feature="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" version="5.0.0" match="equivalent"/>
       <import feature="org.palladiosimulator.measurementsui.feature" version="5.0.0" match="equivalent"/>
       <import feature="org.palladiosimulator.branding.feature"/>
