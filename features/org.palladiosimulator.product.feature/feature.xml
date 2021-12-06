@@ -41,6 +41,7 @@
       <import feature="org.eclipse.jdt" version="3.18.0" match="compatible"/>
       <import feature="org.eclipse.platform" version="4.20.0" match="compatible"/>
       <import plugin="org.eclipse.sdk" version="4.20.0" match="compatible"/>
+      <import feature="org.eclipse.ocl.unified.ui" version="1.16.0" match="compatible"/>
    </requires>
 
 </feature>

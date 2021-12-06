@@ -8,17 +8,17 @@
       <text>
          This is the Palladio Bench product build, which is preconfigured with the Palladio Core Features, i.e., the Palladio Component Model and its most common analyzers.
 
-Version: Palladio Bench 5.0
+Version: Palladio Bench 5.1
 
 Palladio Bench, Palladio Component Model
-Copyright 2005-2020,
+Copyright 2005-2021,
 Karlsruhe Institute of Technology (KIT), Software Design and Quality, Karlsruhe, Germany
-University of Stuttgart, Institute of Software Technology, Stuttgart, Germany
+University of Stuttgart, Institute of Software Engineering, Stuttgart, Germany
 Chemnitz University of Technology, Software Engineering Chair, Chemnitz, Germany
 Paderborn University, Heinz Nixdorf Institute, Software Engineering, Paderborn, Germany
 FZI Research Center for Information Technology, Karlsruhe, Germany
 
-http://www.palladio-simulator.com
+https://www.palladio-simulator.com
       </text>
    </aboutInfo>
 
