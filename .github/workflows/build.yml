@@ -4,10 +4,14 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   Palladio-Bench-Product:
-    uses: PalladioSimulator/Palladio-Build-ActionsPipeline/.github/workflows/build.yml@v3.2
+    uses: PalladioSimulator/Palladio-Build-ActionsPipeline/.github/workflows/build.yml@v3.4
     with:
       use-display-output: true
-      deploy-updatesite: 'products/org.palladiosimulator.product/target/deploy'
+      deploy-updatesite: 'products/org.palladiosimulator.product/target/repository'
+      java-version: 11
+      runner-label: 'ubuntu-latest'
+      no-caching: true
+      skip-branch-deploy: false
     secrets:
       SERVER_SSH_KEY: ${{ secrets.DEPLOYMENT_SERVER_SSH_KEY }}
       REMOTE_HOST: ${{ secrets.DEPLOYMENT_REMOTE_HOST }}
