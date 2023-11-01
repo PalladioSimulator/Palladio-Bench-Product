@@ -40,7 +40,7 @@
 									<target name="replace-nightly-reference">
 										<replaceregexp
 											file="p2.inf"
-											match="palladio-build-updatesite/nightly/"
+											match="palladio-build-updatesite/branches/release5.2.0/"
 											replace="palladio-build-updatesite/releases/latest/"
 											byline="true"
 										/>
