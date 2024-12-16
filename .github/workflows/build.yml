@@ -8,6 +8,7 @@ jobs:
     with:
       use-display-output: true
       no-caching: true
+      runner-label: ubuntu-latest
       deploy-updatesite: 'products/org.palladiosimulator.product/target/deploy'
     secrets:
       SERVER_SSH_KEY: ${{ secrets.DEPLOYMENT_SERVER_SSH_KEY }}
