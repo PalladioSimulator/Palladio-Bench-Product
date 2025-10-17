@@ -1,5 +1,5 @@
-instructions.configure=org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//updatesite.palladio-simulator.com/palladio-build-updatesite/releases/5.2.2/,type:0,name:Palladio Release Update Site,enabled:true); \
-  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//updatesite.palladio-simulator.com/palladio-build-updatesite/releases/5.2.2/,type:1,name:Palladio Release Update Site,enabled:true); \
+instructions.configure=org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/,type:0,name:Palladio Release Update Site,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/,type:1,name:Palladio Release Update Site,enabled:true); \
   org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/2023-03/,type:0,name:Eclipse 2023-03,enabled:true); \
   org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/2023-03/,type:1,name:Eclipse 2023-03,enabled:true); \
   org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/eclipse/updates/4.27/,type:0,name:Eclipse 2023-03 Updates,enabled:true); \
