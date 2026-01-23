@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Palladio Bench" uid="org.palladiosimulator.palladiobench.product" id="org.palladiosimulator.pcm.ui.PalladioProduct" application="org.eclipse.ui.ide.workbench" version="5.2.2" useFeatures="true" includeLaunchers="true">
+<product name="Palladio Bench" uid="org.palladiosimulator.palladiobench.product" id="org.palladiosimulator.pcm.ui.PalladioProduct" application="org.eclipse.ui.ide.workbench" version="5.2.2" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
 
    <aboutInfo>
       <image path="/org.palladiosimulator.pcm.ui/about.png"/>
@@ -11,7 +11,7 @@
 Version: Palladio Bench 5.2 
 
 Palladio Bench, Palladio Component Model
-Copyright 2005-2025,
+Copyright 2005-2026,
 Karlsruhe Institute of Technology (KIT), Software Design and Quality, Karlsruhe, Germany
 University of Stuttgart, Institute of Software Engineering, Stuttgart, Germany
 Chemnitz University of Technology, Software Engineering Chair, Chemnitz, Germany
@@ -26,7 +26,7 @@ https://www.palladio-simulator.com
    </configIni>
 
    <launcherArgs>
-      <programArgs>-consoleLog -console -perspective org.palladiosimulator.pcmbench.perspectives.palladio --launcher.defaultAction openFile --launcher.appendVmargs
+      <programArgs>-perspective org.palladiosimulator.pcmbench.perspectives.palladio --launcher.defaultAction openFile --launcher.appendVmargs
       </programArgs>
       <vmArgs>-Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication -Dosgi.requiredJavaVersion=17 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM
       </vmArgs>
