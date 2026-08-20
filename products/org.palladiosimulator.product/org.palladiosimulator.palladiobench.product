@@ -28,7 +28,7 @@ https://www.palladio-simulator.com
    <launcherArgs>
       <programArgs>-perspective org.palladiosimulator.pcmbench.perspectives.palladio --launcher.defaultAction openFile --launcher.appendVmargs
       </programArgs>
-      <vmArgs>-Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication -Dosgi.requiredJavaVersion=17 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM
+      <vmArgs>-Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication -Dosgi.requiredJavaVersion=21 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -50,9 +50,9 @@ https://www.palladio-simulator.com
    <intro introId="org.palladiosimulator.pcm.ui.intro"/>
 
    <vm>
-      <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17</linux>
-      <macos include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17</macos>
-      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17</windows>
+      <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21</linux>
+      <macos include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21</macos>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21</windows>
    </vm>
 
    <license>
@@ -349,7 +349,6 @@ version(s), and exceptions or additional permissions here}."
       <feature id="org.palladiosimulator.edp2.feature" installMode="root"/>
       <feature id="org.palladiosimulator.edp2.ui.feature" installMode="root"/>
       <feature id="org.palladiosimulator.pcm.feature" installMode="root"/>
-      <feature id="org.palladiosimulator.protocom.feature" installMode="root"/>
       <feature id="org.palladiosimulator.solver.feature" installMode="root"/>
       <feature id="org.palladiosimulator.reliability.feature" installMode="root"/>
       <feature id="org.palladiosimulator.recorderframework.feature" installMode="root"/>

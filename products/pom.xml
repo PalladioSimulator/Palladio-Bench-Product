@@ -11,9 +11,9 @@
 	<artifactId>products</artifactId>
 	<packaging>pom</packaging>
 	<name>Product Modules</name>
-	
+
 	<modules>
 		<module>org.palladiosimulator.product</module>
 	</modules>
-	
+
 </project>
